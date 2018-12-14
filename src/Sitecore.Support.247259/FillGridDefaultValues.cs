@@ -63,7 +63,7 @@
             {
               standardValues.Add("GridParameters", text2);
             }
-            args.CustomData["RenderingParameters"] = new UrlString(standardValues.EscapeDataValues()).GetUrl();
+            args.CustomData["RenderingParameters"] = new UrlString(standardValues).GetUrl();
           }
         }
       }
